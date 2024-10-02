@@ -1,6 +1,7 @@
 version :"3"
 services :
 web :
+image : nginx
 build : .
 port :
 -"80:80"
